@@ -71,14 +71,13 @@ end
 #   return true
 # end
 
-
 false
 end
 
 
 
 def winner(board)
-  if over? == true
+  if over? == true && draw?(board) == false
     winning_combo = won?(board)
     return winning_combo[0]
   end
