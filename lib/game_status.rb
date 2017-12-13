@@ -32,7 +32,7 @@ return nil if board.all?{|ele| ele == " " } == true
     else
       next
     end
-    
+
     end
     false
 end
