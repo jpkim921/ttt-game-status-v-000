@@ -74,3 +74,13 @@ end
 
 false
 end
+
+
+
+def winner(board)
+  if over? == true
+    winning_combo = won?(board)
+    return winning_combo[0]
+  end    
+
+end
