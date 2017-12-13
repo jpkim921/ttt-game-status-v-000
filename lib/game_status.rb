@@ -26,7 +26,7 @@ board.all?{|ele| ele == " " } == true
     position2 = board[win_combo[1]]
     position3 = board[win_combo[2]]
     comparison_set = [position1, position2, position3]
-    
+
     if comparison_set == ["X","X","X"] || comparison_set == ["O","O","O"]
       return win_combo
     else
