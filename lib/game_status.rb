@@ -19,7 +19,7 @@ WIN_COMBINATIONS = [
 
 def won?(board)
 
-board.all?{|ele| ele == " " } == true
+return nil if board.all?{|ele| ele == " " } == true
 
   WIN_COMBINATIONS.each do |win_combo|
     position1 = board[win_combo[0]]
