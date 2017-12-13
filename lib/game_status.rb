@@ -57,7 +57,7 @@ def over?(board)
 
 if won?(board) == true || full?(board) == false
 return true
-elsif draw?(board) == true
+elsif draw?(board)
   return true
 end
 false
