@@ -59,7 +59,6 @@ if won?(board) == true || full?(board) == true
   return true
 end
 
-  # won?(board) || full?(board)
 
 
 end
