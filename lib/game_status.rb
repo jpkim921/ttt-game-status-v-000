@@ -18,6 +18,8 @@ WIN_COMBINATIONS = [
 
 
 def won?(board)
+
+  #return false if the board is empty
     if board.all? == " "
       return false
     end
