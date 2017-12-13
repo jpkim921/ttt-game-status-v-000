@@ -36,6 +36,7 @@ def won?(board)
   false
 end
 
+
 def full?(board)
 board.all?{|ch| ch == "X" || ch == "O" }
 end
@@ -49,8 +50,8 @@ def draw?(board)
   elsif won?(board) == true
     return false
   end
+end
 
-  end
 
 def over?(board)
 
@@ -60,7 +61,7 @@ def over?(board)
   #   return false
   # end
 
-if won?(board) == true && (full?(board) == true) # || full?(board) == false)
+if won?(board) == true && full?(board) == true # || full?(board) == false)
   return true
 elsif draw?(board) == true
   return true
