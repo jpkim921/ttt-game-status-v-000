@@ -20,9 +20,9 @@ WIN_COMBINATIONS = [
 def won?(board)
 
   #return false if the board is empty
-    # if board.all? == " "
-    #   return false
-    # end
+    if board.all? == " "
+      return false
+    end
 
     WIN_COMBINATIONS.each do |win_combo|
       win_index_1 = win_combo[0]
