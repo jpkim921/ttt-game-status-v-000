@@ -38,7 +38,7 @@ end
 
 
 def full?(board)
-board.all?{|ch| ch == "X" || ch == "O" }
+return true if board.all?{|ch| ch == "X" || ch == "O" } == true
 end
 
 
