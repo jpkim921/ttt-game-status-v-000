@@ -18,5 +18,5 @@ WIN_COMBINATIONS = [
 
 
 # def won?
-# 
+#
 # end
