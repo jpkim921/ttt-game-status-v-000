@@ -55,24 +55,11 @@ end
 
 def over?(board)
 
-  # if won?(board) == true || draw?(board) == true || full?(board) == true
-  #   return true
-  # else
-  #   return false
-  # end
+if won?(board) == true || full?(board) == true
+  return true
+end
 
-# if won?(board) == true && full?(board) == true # || full?(board) == false)
-#   return true
-# elsif won?(board) == true && full?(board) == false
-#   return true
-# elsif draw?(board) == true
-#   return true
-# else
-#   return false
-# end
-
-
-  won?(board) || full?(board)
+  # won?(board) || full?(board)
 
 
 end
