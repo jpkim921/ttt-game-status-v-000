@@ -79,7 +79,7 @@ end
 def winner(board)
   if over?(board) == true
     winning_combo = won?(board)
-    return winning_combo[0]
+    return board[winning_combo[0]]
   end
 
 end
