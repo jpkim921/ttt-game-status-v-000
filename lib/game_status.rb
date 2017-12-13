@@ -18,14 +18,13 @@ WIN_COMBINATIONS = [
 
 
 def won?(board)
+    
+board.all?{|ele| ele == " " } == true 
+    
+WIN_COMBINATIONS.each do |win_combo|
 
-  #return false if the board is empty
-
-
-    WIN_COMBINATIONS.each do |win_combo|
-
-      return false if win_combo.all?{|num| num == " " } == true
-
+      
+      
       win_index_1 = win_combo[0]
       win_index_2 = win_combo[1]
       win_index_3 = win_combo[2]
