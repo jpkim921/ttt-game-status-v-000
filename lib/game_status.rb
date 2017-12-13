@@ -66,8 +66,10 @@ if won?(board) == true && (full?(board) == true) # || full?(board) == false)
   return true
 elsif draw?(board) == true
   return true
+else
+  return false
 end
-false
+
 
 
 end
