@@ -68,6 +68,6 @@ elsif draw?(board) == true
   return false
 end
 false
-  
+
 
 end
